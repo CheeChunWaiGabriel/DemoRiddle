@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 public class AnswerActivity2 extends AppCompatActivity {
@@ -17,4 +18,5 @@ TextView TVAnswer2;
         String questionsSelected = intentReceived.getStringExtra("Question");
         TVAnswer2.setText(questionsSelected + " answer is: Gone");
     }
+
 }
